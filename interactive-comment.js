@@ -113,7 +113,7 @@ function Run(){
             box.innerHTML=`
             <div class="first-block">
                 <div class="info" id=${user.lastLetter}>
-        <img src="images/avatars/${user.image}" alt="${user.name} image" class="image timo"/>
+        <img src="${user.image}" alt="${user.name} image" class="image timo"/>
         <span id="${user.firstLetter}">
                     <span class="name">${user.name}</span>
                     </span>
