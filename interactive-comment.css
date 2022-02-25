@@ -253,7 +253,7 @@ width: 120px;
 .edy:hover{
     cursor: pointer;
 }
- .plus:hover,.minus:hover{
+.increment:hover .minus,.increment:hover .plus{
     cursor: pointer;
     fill: blue;
 }
@@ -296,11 +296,10 @@ width: 120px;
         flex-direction: column;
         top:20px;
         left: 10px;
-        width: unset;
-        height: unset;
+         width: 35px;
+        height: 80px;
         margin: 0;
-        padding:3px 7px;
-            /* align-items: center; */
+        padding:5px 7px;
     }
     .increment>img{
         padding: 10px 0px;
@@ -344,24 +343,6 @@ width: 120px;
         margin: 0;
         order: 3;
     }
-    /* .name{
-        margin-left: 10px;
-
-        padding: 0px 20px;
-    }
-  .person{
-    margin: 0px 10px;
-    }
-      .timing{
-        margin-left: 50px;
-    } */
-    /* .name{
-        padding: 0 5px;
-    }
-    .person{
-        margin: 0px 10px;
-        /* padding: 0 0px; 
-    } */
     .first-block{
         align-self: center;
         padding-right: 0;
